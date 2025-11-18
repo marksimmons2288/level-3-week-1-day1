@@ -1,0 +1,22 @@
+{
+  "name": "level-3-week-1-day1",
+  "version": "1.0.0",
+  "description": "Initial project to learn npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check:node": "node scripts/checkEnv.js hello-from-npm-script",
+    "dev":"live-server --port=3000"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksimmons2288/level-3-week-1-day1.git"
+  },
+  "author": "mark2288",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marksimmons2288/level-3-week-1-day1/issues"
+  },
+  "homepage": "https://github.com/marksimmons2288/level-3-week-1-day1#readme"
+}
