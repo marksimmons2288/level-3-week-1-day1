@@ -8,22 +8,22 @@
 
  */
 
- console.log("=== Node.js environment check ===");
+console.log("=== Node.js environment check ===");
 
- // Node version (useful to debug version-related issues)
+// Node version (useful to debug version-related issues)
 
 console.log("Node version:", process.version);
 
 //  Print process object
-console.log('Process Object:', process);
+console.log("Process Object:", process);
 
 // Current working directory (the folder where the script is executed)
 
 console.log("Current working directory:", process.cwd());
 
- // Any extra arguments passed to this script (after the file name)
+// Any extra arguments passed to this script (after the file name)
 
-console.log('Arguments Array:', process.argv);
+console.log("Arguments Array:", process.argv);
 
 console.log("Arguments passed to this script:", process.argv.slice(2));
 

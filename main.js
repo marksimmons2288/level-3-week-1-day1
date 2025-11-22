@@ -1,6 +1,6 @@
 // Imports
-import { getPokemonAPI } from './services/getPokemonService.js'
-import renderPokemonResponse from './components/renderPokemonResponse.js';
+import { getPokemonAPI } from "./services/getPokemonService.js";
+import renderPokemonResponse from "./components/renderPokemonResponse.js";
 
 // My variables
 const content = document.getElementById("content");
@@ -10,7 +10,7 @@ const mainForm = document.getElementById("mainForm");
 const searchInput = document.getElementById("pokemonSearchInput");
 
 // Main form event listener
-mainForm.addEventListener('submit', async (e) => {
+mainForm.addEventListener("submit", async (e) => {
   // Prevent the default action of the form
   e.preventDefault();
 

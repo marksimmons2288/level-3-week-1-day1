@@ -1,7 +1,11 @@
+
+const content = document.getElementById("content");
+
 function renderPokemonResponse(apiResponse) {
   if (apiResponse.success) {
     // Display the pokemon name
     const pokemon = apiResponse.data;
+   
 
     const typesArray = pokemon.types;
     // let typesString = '';
@@ -14,7 +18,7 @@ function renderPokemonResponse(apiResponse) {
     //   }
     // });
 
-    const typesString = typesArray.map(type => type.type.name).join(', ');
+    const typesString = typesArray.map(type => type.type.name).join(", ");
 
     content.innerHTML = `
       <div class="card" style="width: 18rem;">
@@ -28,14 +32,14 @@ function renderPokemonResponse(apiResponse) {
           </ul>
         </div>
       </div>
-    `
+    `;
   } else {
     // Display the error message
     const { error } = apiResponse;
 
     content.innerHTML = `
       <h2 class="text-danger">The API failed because: ${error.message}</h2>
-    `
+    `;
   }
 }
 
