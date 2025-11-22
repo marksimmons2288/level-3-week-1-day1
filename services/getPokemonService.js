@@ -1,4 +1,4 @@
-const baseUrl = 'https://pokeapi.co/api/v2';
+const baseUrl = "https://pokeapi.co/api/v2";
 
 // Flow to make API requests
 /*
@@ -17,13 +17,13 @@ async function getPokemonAPI(pokemonName) {
 
     return {
       success: true,
-      data: data
+      data
     };
   } catch (error) {
 
     return {
       success: false,
-      error: error
+      error
     };
   }
 }
@@ -38,13 +38,13 @@ async function getAbilitiesAPI() {
 
     return {
       success: true,
-      data: data
+      data
     };
   } catch (error) {
 
     return {
       success: false,
-      error: error
+      error
     };
   }
 }
@@ -59,13 +59,13 @@ async function getItemAPI(itemId) {
 
     return {
       success: true,
-      data: data
+      data
     };
   } catch (error) {
 
     return {
       success: false,
-      error: error
+      error
     };
   }
 }
