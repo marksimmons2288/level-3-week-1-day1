@@ -117,7 +117,7 @@ console.log("Average by City: ", averageByCity.toFixed(2));
  * 4) Avoid repeating code, keep functions small.
  */
 
-function buildCitySummary(list) {
+function buildCitySummary(_list) {
   // TODO: students implement this function using .reduce and objects.
   return {};
 }
