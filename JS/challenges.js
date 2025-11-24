@@ -57,6 +57,8 @@ const passingStudents = getPassingStudentsNames(students);
 
 console.log("Passing students: ", passingStudents);
 
+
+
 // -------------------------
 // Task 2: Average by city
 // -------------------------
